@@ -2235,7 +2235,8 @@ body > article {
 }
 
 #top {
-  padding: 10em 0 10em 0;
+  /* padding: 10em 0 10em 0; */
+  padding: 4em 0 6em 0;
   text-align: left;
 }
 
@@ -2443,6 +2444,15 @@ body > article {
   button.large,
   .button.large {
     font-size: 1.2em;
+    letter-spacing: 0;
+  }
+
+  input[type="button"].medium,
+  input[type="submit"].medium,
+  input[type="reset"].medium,
+  button.medium,
+  .button.medium {
+    font-size: 1em;
     letter-spacing: 0;
   }
 
