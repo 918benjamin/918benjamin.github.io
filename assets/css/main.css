@@ -195,8 +195,8 @@ textarea,
 select {
   font-family: "Open Sans", sans-serif;
   line-height: 1.85em;
-  color: #888;
-  font-weight: 300;
+  color: #000000;
+  font-weight: 500;
   font-size: 13pt;
 }
 
@@ -275,9 +275,10 @@ h6 {
 }
 
 h1 {
-  font-size: 3.25em;
+  font-size: 3.5em;
   letter-spacing: -0.025em;
   font-weight: 300;
+  line-height: 1.5em;
 }
 
 h1 strong {
@@ -285,7 +286,7 @@ h1 strong {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 3em;
   letter-spacing: -0.015em;
 }
 
@@ -2389,7 +2390,7 @@ body > article {
   h4,
   h5,
   h6 {
-    font-size: 1.25em;
+    font-size: 1.75em;
     margin: 0 0 0.4em 0;
   }
 
@@ -2587,4 +2588,12 @@ body > article {
   #copyright li:first-child {
     margin-top: 0;
   }
+}
+
+#work p {
+  font-size: 1.35em;
+}
+
+#work header {
+  margin: 0 0 1em 0;
 }
